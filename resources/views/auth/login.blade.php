@@ -103,14 +103,14 @@
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
                     <h1>¡Bienvenido de nuevo!</h1>
-                    <img src="/IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="" width="90" height="auto">
+                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="" width="90" height="auto">
 
                     <p>Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
                     <button class="hidden" id="login">Login</button>
                 </div>
                 <div class="toggle-panel toggle-right">
                     <h1>Biovic</h1>
-                    <img src="/IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="" width="90" height="auto">
+                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="" width="90" height="auto">
                     <p>Regístrate para explorar y conocer todos los beneficios que nuestra plataforma tiene para
                         ofrecerte. </p>
 
