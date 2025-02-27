@@ -18,8 +18,8 @@
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     {{-- styles tw --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/menu.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="css/header.css"> --}}
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    <link rel="stylesheet" href="css/header.css">
     <script src="{{ asset('js/app.js') }}"></script>
 
 
@@ -47,9 +47,9 @@
 
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <a href="/HTML/menu.html" style="margin-left: 1%; margin-right:1%">
+            {{-- <a href="/HTML/menu.html" style="margin-left: 1%; margin-right:1%">
                 <i class="fa-solid fa-arrow-left" style="margin-left: 5%; color:white"></i>
-            </a>
+            </a> --}}
             
             <div class="container-fluid">
                 <a class="navbar-brand" href="main">
@@ -61,14 +61,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; margin-left: 1%; margin-right:1%">
-                        <li >
-                            <a class="nav-link " aria-current="page" href="/HTML/main.html">Home</a>
-                        </li>
-                        <li><a class="nav-link"   href="/HTML/hojas_vida.html">Hojas de Vida</a></li>
-                      
-                        <li><a class=" nav-link"  href="/HTML/mantenimiento.html">Gestión de
-                                Mantenimiento</a></li>
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
+                        {{-- <li ><a class="nav-link " aria-current="page" href="menu">Home</a></li> --}}
+                        <li><a class="nav-link"   href="hojas_vida">Hojas de Vida</a></li>
+                        <li><a class=" nav-link"  href="/HTML/mantenimiento.html">Gestión de Mantenimiento</a></li>
                         <li><a class=" nav-link "  href="/HTML/soporte.html">Soporte Técnico</a></li>
                         {{-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

@@ -24,12 +24,10 @@ Route::get('/main', function () {
     // return View('admin.layouts.app');
 });
 
-Route::get('/menu', function () {
-    // Alert::success(' Titulo de la alerta','mensaje de la alerta');
-    // toast('Ejemplo del toast')->success('ejemplo del tost');
-    return view('menu');
-    // return View('admin.layouts.app');
-});
+Route::get('/ingreso_hoja_de_vida', function ()  {return view('ingreso_hoja_de_vida');});
+Route::get('/menu', function ()                  {return view('menu');});
+Route::get('/hojas_vida', function ()            {return view('hojas_vida');});
+Route::get('/subir_soporte', function ()            {return view('subir_soporte');});
 
 Route::get('/dashboard', function () {
     return view('admin.layouts.app');
