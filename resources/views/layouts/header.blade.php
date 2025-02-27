@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    {{-- <title>{{ config('app.name','Laravel') }}</title> --}}
 
     <!-- Fonts -->
     {{-- <link rel="preconnect" href="https://fonts.bunny.net"> --}}
@@ -18,7 +18,7 @@
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     {{-- styles tw --}}
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/header.css') }}"> --}}
     <link rel="stylesheet" href="css/header.css">
     <script src="{{ asset('js/app.js') }}"></script>
 
@@ -64,8 +64,8 @@
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
                         {{-- <li ><a class="nav-link " aria-current="page" href="menu">Home</a></li> --}}
                         <li><a class="nav-link"   href="hojas_vida">Hojas de Vida</a></li>
-                        <li><a class=" nav-link"  href="/HTML/mantenimiento.html">Gestión de Mantenimiento</a></li>
-                        <li><a class=" nav-link "  href="/HTML/soporte.html">Soporte Técnico</a></li>
+                        <li><a class=" nav-link"  href="mantenimiento">Gestión de Mantenimiento</a></li>
+                        <li><a class=" nav-link "  href="soporte">Soporte Técnico</a></li>
                         {{-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">

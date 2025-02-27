@@ -15,8 +15,8 @@
             crossorigin="anonymous"> <link rel="stylesheet"
             href="/path/to/styles.css">
 
-        <link rel="stylesheet" href="/CSS/menu.css">
-        <link rel="icon" type="image/x-icon" href="/IMG/logotipo.png" />
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="icon" type="image/x-icon" href="IMG/logotipo.png" />
 
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -29,62 +29,7 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/HTML/main.html">VitalSoft
-
-                        <img src="/IMG/CutPaste_2024-08-02_10-48-31-556.png"
-                            alt="VitalSoft" height="40">
-                    </a>
-
-                    <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                        aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul
-                            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                            style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="/HTML/main.html">Home</a>
-                            </li>
-                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#"
-                                    role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Link
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/HTML/hojas_vida.html">Hojas de Vida</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="/HTML/mantenimiento.html">Gestión de Mantenimiento</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="/HTML/soporte.html">Soporte Técnico</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="/HTML/soporte.html">Configuración</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="/HTML/main.html">Cerrar Sesión</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled"
-                                    aria-disabled="true">Gestion de mantenimiento </a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search"
-                                placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success"
-                                type="button"
-                                onclick="window.location.href='https://www.google.com'">Search</button>
-                        </form>
-
-                    </header>
+        @extends('layouts.header')
                     <br>
                     <main> 
                         <h1 style="margin-top: 4rem; text-align:center">Gestion de Mantenimiento</h1>
@@ -92,7 +37,7 @@
                             <div class="col">
                               <div class="card h-100">
                             <a href="/HTML/sopor_reporte_manto.html" style="text-decoration: none;">
-                                <img src="/IMG/reparacion1.jpg" class="card-img-top" alt="...">
+                                <img src="IMG/reparacion1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title" style="margin-top: 1rem;">Cronograma de Mantenimiento</h5>
                                   <p class="card-text">Registra y monitorea las fechas de mantenimiento para asegurar el óptimo funcionamiento de tus equipos biomédicos</p>
@@ -104,7 +49,7 @@
                             <div class="col">
                                 <div class="card h-100">
                                     <a href="/HTML/manto_crono_cal.html" class="text-decoration-none">
-                                        <img src="/IMG/reparacion3.jpg" class="card-img-top" alt="...">
+                                        <img src="IMG/reparacion3.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">Cronograma de Calibración</h5>
                                             <p class="card-text">Programa y gestiona la calibración de equipos para garantizar precisión y seguridad en su uso.</p>
@@ -116,7 +61,7 @@
                             <div class="col">
                               <div class="card h-100">
                                 <a href="/HTML/Reporte_de_servicio.html">
-                                <img src="/IMG/reparacion2.jpg" class="card-img-top" alt="...">
+                                <img src="IMG/reparacion2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Alarmas</h5>
                                   <p class="card-text">Genera alarmas y gestiona reportes para mantener un control eficiente del mantenimiento.</p>

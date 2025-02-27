@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/img/Logo_VitalTech2.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/path/to/styles.css">
-    <link rel="stylesheet" href="/CSS/soporte.css">
+    <link rel="stylesheet" href="css/soporte.css">
     <link rel="icon" type="image/x-icon" href="/IMG/logotipo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -20,59 +20,13 @@
 
 
 <body>
-    <header>
-        
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <a href="/HTML/menu.html" style="margin-left: 3%; margin-right:3%"><i class="fa-solid fa-arrow-left" style="margin-left: 8%; color:white" ></i></a> 
-
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/HTML/main.html">
-                    VitalSoft
-                    <img src="/IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="Logo de VitalSoft" height="40">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/HTML/main.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/HTML/hojas_vida.html">Hojas de Vida</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/HTML/mantenimiento.html">Gestión de Mantenimiento</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/HTML/soporte.html">Soporte Técnico</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/HTML/soporte.html">Configuración</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/HTML/main.html">Cerrar Sesión</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Modulo Soporte Tecnico</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://www.google.com'">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+@extends('layouts.header')
     <main>
         <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 7rem;">
             <div class="col">
               <div class="card h-100">
             <a href="/HTML/sopor_reporte_manto.html" style="text-decoration: none;">
-                <img src="/IMG/modulo_soporte_tecnico.webp" class="card-img-top" alt="...">
+                <img src="IMG/modulo_soporte_tecnico.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title" style="margin-top: 1rem;">Reporte de Mantenimiento</h5>
                   <p class="card-text">Formulario para registrar y monitorear cuándo se debe realizar el mantenimiento de un equipo biomédico, asegurando su correcto funcionamiento.</p>
@@ -83,7 +37,7 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="/IMG/centraliza_la_informacion2.png" class="card-img-top" alt="...">
+                <img src="IMG/centraliza_la_informacion2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"> Soporte de mantenimiento</h5>
                   <p class="card-text">Brindamos atención integral para mantener tus equipos en óptimas condiciones, garantizando su funcionamiento eficiente y seguro.</p>
@@ -94,7 +48,7 @@
             <div class="col">
               <div class="card h-100">
                 <a href="/HTML/Reporte_de_servicio.html">
-                <img src="/IMG/soporttt.webp" class="card-img-top" alt="...">
+                <img src="IMG/soporttt.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Reporte de Servicio</h5>
                   <p class="card-text">Genera alarmas, imprime y guarda reportes para una gestión eficiente del mantenimiento.</p>
