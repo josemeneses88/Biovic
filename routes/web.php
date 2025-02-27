@@ -17,10 +17,17 @@ use Spatie\FlareClient\View;
 |
 */
 
-Route::get('/', function () {
+Route::get('/main', function () {
     // Alert::success(' Titulo de la alerta','mensaje de la alerta');
     // toast('Ejemplo del toast')->success('ejemplo del tost');
     return view('main');
+    // return View('admin.layouts.app');
+});
+
+Route::get('/menu', function () {
+    // Alert::success(' Titulo de la alerta','mensaje de la alerta');
+    // toast('Ejemplo del toast')->success('ejemplo del tost');
+    return view('menu');
     // return View('admin.layouts.app');
 });
 

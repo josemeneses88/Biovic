@@ -51,6 +51,11 @@ body {
     font-weight: bold;
 }
 
+ul .botone{
+    margin-left: 5rem;
+    padding-left: 50%;
+    list-style: none;
+}
 
 
 /* Header */
@@ -73,14 +78,23 @@ body {
     opacity: 0.8; /* Ajusta la opacidad */
 }
 
-.navbar .nav-link,
+
 .navbar .navbar-brand,
 /* .navbar .dropdown-menu .dropdown-item, */
 .navbar .btn {
   color: white !important;
 
 }
-
+.nav-link{
+    color: #ffffff;
+    
+}
+.nav-link:hover{
+    color: #ffffffa9;
+    /* background-color: #0e132b1f; */
+    border-radius: 10px;
+    text-shadow: #ffffff;
+}
 a {
     text-decoration: none;
 }

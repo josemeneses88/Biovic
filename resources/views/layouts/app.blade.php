@@ -17,7 +17,7 @@
 
         {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
         {{-- styles tw --}}
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <!-- {{-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> --}} -->
         <script src="{{asset('js/app.js')}}"></script>
 
 
@@ -46,9 +46,9 @@
             @endif
 
             <!-- Page Content -->
-            <main>
+            {{-- <main>
                 {{ $slot }}
-            </main>
+            </main> --}}
         </div>
     </body>
 </html>
