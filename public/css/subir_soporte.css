@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+
+/* Header */
+.navbar {
+    background: #7169dd;
+    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+/* .navbar .dropdown-menu .dropdown-item, */
+.navbar .btn {
+  color: white !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #f2f2f2;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/* body */
+
+
+
+main {
+    margin-left: 30%;
+    display: flex;
+}
+
+.soportes {
+    text-align: center;
+    width: 50%; 
+    margin-bottom: 40rem; /* Reducir el margen inferior */
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-block-end: 9%; /* Reducir el margen de bloque al final */
+    padding: 40px; /* Agregar relleno para separar los bordes del contenido */
+    border: 1px solid #0848a7; /* Agregar un borde para definir los límites del formulario */
+    border-radius: 5px; /* Agregar esquinas redondeadas para suavizar la apariencia */
+
+    box-sizing: border-box; /* Incluir el margen en el ancho del formulario */
+}
+
+.soportes input[type="file"] {
+    margin-top: 10px; 
+    background-color: #8ea3b9;
+}
+
+.soportes input[type="submit"] {
+    margin-top: 20px; /* Agregar espacio entre los campos de archivo y el botón */
+    padding: 10px 20px; /* Agregar relleno para hacer el botón más grande */
+    background-color: #007bff; /* Cambiar el color de fondo del botón */
+    color: #fff; /* Cambiar el color del texto del botón */
+    border: none; /* Eliminar el borde del botón */
+    border-radius: 5px; /* Agregar esquinas redondeadas al botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.soportes input[type="submit"]:hover {
+    background-color: #294d74; /* Cambiar el color de fondo al pasar sobre el botón */
+}
+
+
+
+.boton{
+    width: 50%;
+    height: 9%;
+    border-radius: 20px;
+    color: white;
+    background-color: #204996;
+    margin-top: 2rem;
+    margin-block-end: rem;
+}
+
+.boton:hover {
+    background-color: #061750; /* Cambia el color de fondo al hacer hover */
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover,
+footer .social-icons a:focus {
+    color: #ddd;
+}
+
+
+
+
+footer .social-icons a:hover {
+    color: #ddd;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #ddd;
+}
+
+.news-input {
+    width: 100%;
+    max-width: 15rem;
+    padding: 1.2rem;
+    border-radius: 4rem;
+    object-position: left;
+    margin-top: -2%;
+}
+
+.news-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 2px .6rem;
+    margin-left: -1px;
+}
+
+.social-icons i.fa-x-twitter:hover,
+.social-icons i.fa-x-twitter:focus {
+    color: var(--twitter);
+}
+
+.social-icons i.fa-youtube:hover,
+.social-icons i.fa-youtube:focus {
+    color: var(--youtube);
+}
+
+.social-icons i.fa-linkedin-in:hover,
+.social-icons i.fa-linkedin-in:focus {
+    color: var(--linkedin);
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    color: var(--instagram);
+}
+
+.social-icons i.fa-facebook-square:hover,
+.social-icons i.fa-facebook-square:focus {
+    color: var(--facebook);
+}
+
+:root {
+    --facebook: blue;
+    --twitter: #55acee;
+    --youtube: red;
+    --instagram: #e4405f;
+}

@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    
+    
+}
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
+
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: auto;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.global .hea-dark {
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 10%;
+}
+
+.global .fil{
+    color: #000;
+}
+
+section {
+    padding: 3.9rem 0;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.btn.cta-btn {
+    font-family: 'Poppins', sans-serif; /* Cambia 'Poppins' por la fuente que prefieras */
+    font-size: 1.125rem; /* Tamaño de la fuente */
+    letter-spacing: 0.5px; /* Espaciado entre letras */
+    /* Puedes agregar más estilos según tu preferencia */
+}
+
+/* hero */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+    margin-block-end: -14rem;
+}
+
+.hero::before {
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('IMG/mano\ azul.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+.hero__container {
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hero__title {
+    margin-top: -6%;
+    font-size: 4rem;
+}
+
+.hero__paragraph {
+    margin-bottom: 70px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #2091F9;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+    font-size: 1.3rem;
+}
+
+.cta:hover {
+    background-color: #0056b3; /* Color de fondo cuando el cursor está sobre el botón */
+    color: #fff; /* Color del texto cuando el cursor está sobre el botón */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}
+
+
+/* NAVBAR */
+.navbar {
+    background: #7169dd;
+    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el color y la opacidad según sea necesario */
+    opacity: 0.8; /* Ajusta la opacidad */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+/* .navbar .dropdown-menu .dropdown-item, */
+.navbar .btn {
+  color: white !important;
+  font-size: 17px;
+}
+
+/* Si prefieres aplicar el margen directamente al enlace */
+.nav-item.special-spacing .nav-link {
+    margin-right: 2rem; /* Ajusta el valor según el espacio que necesites */
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+header h1 {
+    color: #f2f2f2;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+
+
+
+/* Estilo para el input de búsqueda */
+.form-control {
+    
+    width: 200px; /* Ajusta el ancho del input */
+    height: 40px;
+    margin-top: 3%;
+    margin-block-end: 3%;
+
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-menu {
+    font-size: 50rem; /* Tamaño de fuente más grande */
+    padding: 1rem; /* Espacio interno del menú */
+    min-width: 200px; /* Ancho mínimo del menú desplegable */
+}
+
+/* Estilo para los elementos del menú */
+.dropdown-item {
+    padding: 0.75rem 1.25rem; /* Espacio interno de cada elemento del menú */
+    font-size: 1.5rem; /* Tamaño de fuente más grande en cada elemento */
+}
+
+/* Opcional: Estilo para el separador en el menú */
+.dropdown-divider {
+    margin: 0.5rem 0; /* Margen alrededor del separador */
+}
+
+
+
+/* About us */
+
+/* About */
+
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+.about__paragraph {
+    line-height: 1.7;
+}
+
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    margin-bottom: 23px;
+    grid-column-gap: 20px;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.about__main img{
+    width: 30%;
+}
+
+.about__icons {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    width: 390px;
+    overflow: hidden;
+    margin-bottom: 23px;
+   
+}
+.about__icons1{
+    margin-top:4.5% ;
+
+}
+
+.about__icon {
+    width: 40px;
+}
+
+
+main .sobre-nosotros {
+    padding: 30px 0 60px 0;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us {
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Añadir al archivo CSS */
+.intro-section {
+    background-color: #f8f9fa; /* Fondo claro para contraste */
+    border-bottom: 1px solid #dee2e6; /* Línea de separación sutil */
+}
+
+.intro-text {
+    max-width: 50%; /* Limitar ancho del texto */
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    color: #007bff; /* Cambia el color si es necesario */
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    color: #6c757d; /* Cambia el color si es necesario */
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+/*menu*/
+
+.taste {
+    background: url("/IMG/fondo2.1.jpg") center no-repeat;
+    background-size:cover;
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 5%;
+}
+
+.container .btn {
+    font-size: 1.1rem;
+    background-color: #6b92cc;
+    opacity: 100%;
+    padding: 1.5rem 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.container .btn:hover,
+.container .btn:focus {
+    color: #fff;
+    background-color: #0536a0;
+}
+
+.bt {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.taste.bt {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1; /* El texto ocupa todo el espacio disponible en el lado izquierdo */
+    padding: 0 2rem; /* Añade espacio alrededor del texto */
+}
+
+.image-content {
+    flex: 1; 
+    text-align: start; 
+}
+
+.h2-sub {
+    line-height: 2;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.image-content img {
+    max-width: 100%; 
+}
+
+.image-group {
+    display: grid;
+    grid-gap: 5rem;
+    margin-right: -12%;
+}
+
+.disco .res-des {
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+
+.pb {
+    background: url("/images/redDead.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+/* Footer */
+
+
+.my-3 i {
+    color: white;
+    font-size: 161%;
+    color: white;
+    padding: 3%;
+    margin-top: -1%;
+}
+
+.footer-social-icons a {
+    margin: 0 -30px; /* 10px de margen a la izquierda y derecha de cada ícono */
+}
+
+.footer-social-icons a:hover,
+.footer-social-icons a:focus {
+    color: #ddd;
+}
+
+footer {
+    background: linear-gradient(45deg, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+}
+
+footer h4 {
+    font-size: 237%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: none;
+    text-decoration: none;
+    font-weight: none;
+    margin-block-start: -1.5%;
+    margin-top: 0.5%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-block-start: 6%;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover,
+footer .social-icons a:focus {
+    color: #ddd;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #ddd;
+}
+
+.news-input {
+    width: 100%;
+    max-width: 15rem;
+    padding: 1.2rem;
+    border-radius: 4rem;
+    object-position: left;
+    margin-top: -2%;
+}
+
+.news-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 2px .6rem;
+    margin-left: -1px;
+}
+
+.social-icons i.fa-x-twitter:hover,
+.social-icons i.fa-x-twitter:focus {
+    color: var(--twitter);
+}
+
+.social-icons i.fa-youtube:hover,
+.social-icons i.fa-youtube:focus {
+    color: var(--youtube);
+}
+
+.social-icons i.fa-linkedin-in:hover,
+.social-icons i.fa-linkedin-in:focus {
+    color: var(--linkedin);
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    color: var(--instagram);
+}
+
+.social-icons i.fa-facebook-square:hover,
+.social-icons i.fa-facebook-square:focus {
+    color: var(--facebook);
+}
+
+:root {
+    --facebook: blue;
+    --twitter: #55acee;
+    --youtube: red;
+    --instagram: #e4405f;
+}
+
+@media screen and (min-width: 200px) {
+
+/* no borrar */
+
+section {
+    padding: 7.9rem;
+}
+
+.res-info {
+    display: flex;
+    align-items: center;
+}
+}

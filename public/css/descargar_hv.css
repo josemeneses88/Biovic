@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+
+
+/* Header */
+.navbar {
+    background: #7169dd;
+    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+/* .navbar .dropdown-menu .dropdown-item, */
+.navbar .btn {
+  color: white !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #f2f2f2;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary{
+
+    margin-top: 100rem;
+    margin-right: 16%;
+    margin-left: -35rem;
+    margin-block-end: 10%;
+
+}
+
+
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover,
+footer .social-icons a:focus {
+    color: #ddd;
+}
+
+
+
+
+footer .social-icons a:hover {
+    color: #ddd;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #ddd;
+}
+
+.news-input {
+    width: 100%;
+    max-width: 15rem;
+    padding: 1.2rem;
+    border-radius: 4rem;
+    object-position: left;
+    margin-top: -2%;
+}
+
+.news-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 2px .6rem;
+    margin-left: -1px;
+}
+
+.social-icons i.fa-x-twitter:hover,
+.social-icons i.fa-x-twitter:focus {
+    color: var(--twitter);
+}
+
+.social-icons i.fa-youtube:hover,
+.social-icons i.fa-youtube:focus {
+    color: var(--youtube);
+}
+
+.social-icons i.fa-linkedin-in:hover,
+.social-icons i.fa-linkedin-in:focus {
+    color: var(--linkedin);
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    color: var(--instagram);
+}
+
+.social-icons i.fa-facebook-square:hover,
+.social-icons i.fa-facebook-square:focus {
+    color: var(--facebook);
+}
+
+:root {
+    --facebook: blue;
+    --twitter: #55acee;
+    --youtube: red;
+    --instagram: #e4405f;
+}

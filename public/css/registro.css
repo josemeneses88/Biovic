@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/IMG/fondo2.jpg) no-repeat center top;
+    background-position: center center;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+  
+  .login-box {
+    width: 400px;
+    height: 600px; 
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);   
+    text-align:start;
+  }
+  
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-block-end: 5%;
+    color: #fff;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 25px;
+    
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+      border: none;   
+      background: rgba(199, 177, 177, 0);
+      outline: none;
+      background-color: rgb(194, 188, 188);
+      width: 100%;
+      height: 40px; /* Aumenta la altura para dar más espacio al contenido */
+      color: #ffffff;
+      font-size: 16px;
+      margin-bottom: 30px; /* Aumenta el margen inferior para separar los campos */
+    border-radius: 0.9rem;
+    }
+
+  
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2c59b9;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+      }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #2f89b3;
+    color: #fffdfd;
+  }
+  
+  

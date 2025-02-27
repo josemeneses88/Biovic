@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+
+
+/* Header */
+.navbar {
+    background: #7169dd;
+    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el color y la opacidad según sea necesario */
+    opacity: 0.8; /* Ajusta la opacidad */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+/* .navbar .dropdown-menu .dropdown-item, */
+.navbar .btn {
+  color: white !important;
+}
+
+
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+/* body */
+
+
+
+/* Contenedor principal que envuelve los formularios */
+main {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; /* Centra los formularios horizontalmente */
+    align-items: stretch; /* Asegura que los formularios tengan la misma altura */
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 4%
+}
+
+/* Estilos para los formularios */
+.form-container {
+    flex: 1; 
+}
+
+/* Opcional: Estilos adicionales para asegurar consistencia */
+.cajon {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos del formulario verticalmente */
+    justify-content: space-between; /* Distribuye uniformemente los elementos dentro del formulario */
+    height: 100%; /* Asegura que el formulario llene toda la altura disponible */
+    padding: 10px; /* Añade un poco de espacio interno */
+    border: 1px solid #ddd; /* Opcional: borde para distinguir los formularios */
+    border-radius: 8px; /* Opcional: esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar */
+}
+
+
+.cajon label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cajon input[type="text"],
+.cajon input[type="file"],
+.cajon input[type="date"],
+.cajon input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cajon input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cajon input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+    /* Footer */
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+    margin-top: 7%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover,
+footer .social-icons a:focus {
+    color: #ddd;
+}
+
+
+
+
+footer .social-icons a:hover {
+    color: #ddd;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #ddd;
+}
+
+.news-input {
+    width: 100%;
+    max-width: 15rem;
+    padding: 1.2rem;
+    border-radius: 4rem;
+    object-position: left;
+    margin-top: -2%;
+}
+
+.news-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 2px .6rem;
+    margin-left: -1px;
+}
+
+.social-icons i.fa-x-twitter:hover,
+.social-icons i.fa-x-twitter:focus {
+    color: var(--twitter);
+}
+
+.social-icons i.fa-youtube:hover,
+.social-icons i.fa-youtube:focus {
+    color: var(--youtube);
+}
+
+.social-icons i.fa-linkedin-in:hover,
+.social-icons i.fa-linkedin-in:focus {
+    color: var(--linkedin);
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    color: var(--instagram);
+}
+
+.social-icons i.fa-facebook-square:hover,
+.social-icons i.fa-facebook-square:focus {
+    color: var(--facebook);
+}
+
+:root {
+    --facebook: blue;
+    --twitter: #55acee;
+    --youtube: red;
+    --instagram: #e4405f;
+}

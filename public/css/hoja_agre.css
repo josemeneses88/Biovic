@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #7169dd;
+    
+    background: -webkit-linear-gradient(to right, hsla(236, 95%, 50%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 95%, 50%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+header h1{
+    color: #f2f2f2;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+}
+header h4{
+    color: #fff;
+    font-weight: 20;
+    margin-left: 6%;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 35px;
+    text-align: left;
+    color:#882b2b;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.imagen_portada{
+    padding-right: 34vw;
+    height: 10%;
+    width: 10%;
+    
+
+}
+
+/* body */
+
+
+/* Estilos para el contenedor principal */
+/* Estilos para el contenedor principal */
+main {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los formularios se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra los formularios horizontalmente */
+    padding: 20px; /* Agrega espacio alrededor de los formularios */
+}
+
+/* Estilos para cada formulario */
+.cajon {
+    width: 350px; /* Ancho fijo para cada formulario */
+    margin: 38px; /* Espacio entre los formularios */
+    padding: 20px; /* Espacio interno del formulario */
+    background-color: #f6fafd; /* Color de fondo del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(4, 88, 136, 0.1); /* Sombra suave */
+    border-color: #020b13;
+}
+
+/* Estilos para los elementos de cada formulario */
+.cajon label {
+    display: block; /* Muestra los elementos label en una nueva línea */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espacio entre los labels */
+}
+
+.cajon input[type="text"],
+.cajon input[type="email"],
+.cajon input[type="file"] {
+    width: calc(100% - 10px); /* Ancho del campo de entrada */
+    padding: 8px; /* Espacio interno */
+    margin-bottom: 15px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el tamaño total */
+}
+
+/* Estilos para el botón */
+.cajon .boton {
+    width: 109%; /* Ancho completo */
+    padding: 10px; /* Espacio interno */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al hacer hover */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+h1{
+    margin-block-end: 15%;
+}
+
+.cajon .boton:hover {
+    background-color: #d4dae0; /* Cambio de color al hacer hover */
+}
+
+/* Estilos para el campo de archivo */
+.cajon .foto {
+    width: calc(100% - 20px); /* Ancho del campo de archivo */
+    padding: 8px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+    background-color: #88b8eb;
+   
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el tamaño total */
+}
+
+.foto :hover{
+    color: #000000;
+
+    background-color: #4d0686;
+}
+
+
+
+
+
+
+    /* Footer */
+
+    footer {
+        padding: 1rem;
+        background-color: #272626;
+        color: #0a0000;
+        text-align: center;
+        position: relative;
+        font-size: 2%;
+        display: flex;
+        flex-direction: column; /* Cambiamos a flex-direction: column para que los elementos se apilen verticalmente */
+        align-items: center; /* Centra horizontalmente los elementos */
+    }
+    
+    .footer-columns {
+        display: flex;
+        justify-content: space-between; /* Espaciado entre las dos columnas */
+        width: 100%; /* Ajustamos el ancho al 100% */
+    }
+
+    .letrero{
+        font-size: 15px;
+        text-align: justify;
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+    
+    .footer-column1,
+    .footer-column2 {
+        flex: 1; /* Ajusta la flexibilidad de las columnas */
+        text-align: center; /* Alinea el texto al centro */
+        margin: 3rem; /* Añade un pequeño margen entre las columnas */
+    }
+    .footer-column2 h4{
+        margin-right: 40%;
+    }
+    
+    .circle{
+        font-size: 15px;
+        color:#4d0686;
+        margin-block-end: 1%;
+    }
+    
+    .footer-content h4 {
+        font-weight: 34px;
+        color: rgb(245, 240, 240);
+        margin-bottom: 1rem;
+    }
+    
+    .footer-content-about-us {
+        font-size: 1.6rem;
+        margin-left: -1%;
+        margin-right: -9%;
+        padding: 2%;
+        color: #fdfbfb;
+        text-align: center;
+    }
+    
+    .footer-content h4 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 3px;
+        margin-bottom: 3rem;
+    }
+    
+    .social-icons {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-icons i {
+        font-size: 1.3rem;
+        padding: .3rem 1rem;
+        color: #fff;
+    }
+    
+    .news-form {
+        display: flex;
+        align-items: center; /* Centra verticalmente los elementos */
+    }
+    
+    .news-input {
+        width: 100%;
+        max-width: 15rem;
+        padding: 1.2rem;
+        border-radius: 4rem;
+        object-position: left;
+        margin-top: -2%;
+    }
+    
+    .news-btn {
+        background: transparent;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 1.4rem;
+        padding: 2px .6rem;
+        margin-left: -1px; /* Espacio entre el input y el botón */
+    }
+    
+    .social-icons i.fa-twitter:hover,
+    .social-icons i.fa-twitter:focus {
+        color: var(--twitter);
+    }
+    
+    .social-icons i.fa-youtube:hover,
+    .social-icons i.fa-youtube:focus {
+        color: var(--youtube);
+    }
+    
+    .social-icons i.fa-linkedin-in:hover,
+    .social-icons i.fa-linkedin-in:focus {
+        color: var(--linkedin);
+    }
+    
+    .social-icons i:hover,
+    .social-icons i:focus {
+        color: var(--instagram);
+    }
+    
+    .social-icons i.fa-facebook-square:hover,
+    .social-icons i.fa-facebook-square:focus {
+        color: var(--facebook);
+        /* Cambia el color al color de Facebook al pasar el cursor */
+    }
+    
+    :root {
+        --facebook: blue;
+        --twitter: #55acee;
+        --youtube: red;
+        --instagram: #e4405f;
+    }
