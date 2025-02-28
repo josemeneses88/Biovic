@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/HTML/main.html" style="font-size: 220%;">
-                    Biovic
+                    Biovic Tecnología
                     <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="VitalSoft" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
         <!-- Sección Hero -->
         <div class="hero d-flex flex-column justify-content-center align-items-center text-center p-4">
             <section class="hero__container container">
-                <h1 class="hero__title">VitalSoft</h1>
+                <h1 class="hero__title">Biovic Tecnología</h1>
                 <p class="hero__paragraph"> Soluciones Inteligentes para la Gestión y Mantenimiento de Equipos Biomédicos</p>
                 <a href="#" class="cta">Agendar demo</a>
             </section>
@@ -177,7 +177,7 @@
                         
                     </div>
                     <p>
-                        Con la ayuda de VITALTECH, las operaciones de mantenimiento biomedico pasaran a ser mas
+                        Con la ayuda de Biovic Tecnología, las operaciones de mantenimiento biomedico pasaran a ser mas
                         sencillas, potenciando los planes para mejorar la eficiencia y la precisión
                     </p>
                     <a href="/catalogo.html" class="btn cta-btn">saber más</a>
@@ -189,7 +189,7 @@
 </main>
     <footer class="bg-primary text-white text-center py-4">
         <div class="container">
-            <h4>Vitalsoft</h4>
+            <h4>Biovic Tecnología</h4>
             <p>&copy; Soluciones biomedicas a la medida</p>
             
             <div class="my-3 footer-social-icons">
