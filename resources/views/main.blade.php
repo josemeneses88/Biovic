@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mantenimiento_demostracion</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ingreso de hoja de vida</title>
-        <link rel="shortcut icon" href="/img/Logo_VitalTech2.png" type="image/x-icon">
+        <!-- <meta charset="UTF-8"> -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <!-- <title>Ingreso de hoja de vida</title> -->
+        <link rel="shortcut icon" href="img/Logo_VitalTech2.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="icon" type="image/x-icon" href="/IMG/logotipo.png">
+        <link rel="icon" type="image/x-icon" href="IMG/logotipo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -43,11 +43,11 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="true" href="{{ route('login') }}">Iniciar sesión</a>
                         </li>
-                    </ul>
-                    <form class="d-flex" role="search">
+                    </ul>-
+                    <!-- <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-size: 17px;">
                         <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://www.google.com'" style="height: 13%; margin-top:4%">Search</button>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </nav>
@@ -73,19 +73,19 @@
 
             <div class="about__main">
                 <article class="about__icons1">
-                    <img src="/IMG/centraliza_la_informacion2.png" class="about__icon">
+                    <img src="IMG/centraliza_la_informacion2.png" class="about__icon">
                     <h3 class="about__title" style="margin-top: 4%;">Programación Preventiva </h3>
                     <p class="about__paragrah">Desarrollamos planes de mantenimiento preventivo adaptados a las necesidades específicas de cada cliente</p>
                 </article>
 
                 <article class="about__icons2">
-                    <img src="/IMG/img13.jpg" class="about__icon">
+                    <img src="IMG/img13.jpg" class="about__icon">
                     <h3 class="about__title" style="margin-top: 1.7%;">Servicio Técnico Especializado</h3>
                     <p class="about__paragrah">Contamos con un equipo de técnicos altamente capacitados y certificados en el mantenimiento de equipos biomédicos</p>
                 </article>
 
                 <article class="about__icons3">
-                    <img src="/IMG/solicitudes.webp" class="about__icon">
+                    <img src="IMG/solicitudes.webp" class="about__icon">
                     <h3 class="about__title" style="margin-top: 7.3%;">Cumplimiento Normativo</h3>
                     <p class="about__paragrah">Nos comprometemos a cumplir con los estándares de calidad más rigurosos y las regulaciones de seguridad en el cuidado de la salud?</p>
                 </article>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="res-info">
                 <div>
-                    <img src="/IMG/solicitudes.webp" alt="">
+                    <img src="IMG/solicitudes.webp" alt="">
                 </div>
                 <div class="res-des pad-rig">
                     <div class="global">
@@ -128,7 +128,7 @@
                     <a href="/HTML/orden_trabajo.html" class="btn cta-btn">Saber más</a>
                 </div>
                 <div class="image-content">
-                    <img src="/IMG/orden de trabajo.png" alt="">
+                    <img src="IMG/orden de trabajo.png" alt="">
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
                     <a href="/HTML/hojas_vida.html" class="btn cta-btn">saber más</a>
                 </div>
                 <div class="image-group pad-rig">
-                    <img src="/IMG/img4.jpg" alt="">
+                    <img src="IMG/img4.jpg" alt="">
 
 
                 </div>
@@ -167,7 +167,7 @@
         <div class="container">
             <div class="res-info">
                 <div class="imagen-4">
-                    <img src="/IMG/Planificador.webp" alt="">
+                    <img src="IMG/Planificador.webp" alt="">
                     
                 </div>
                 <div class="res-des pad-rig">

@@ -9,7 +9,7 @@
 
     <!-- Fonts and icons -->
     <script src="{{ asset('atlantis/assets/js/plugin/webfont/webfont.min.js') }}"></script>
-    <script>
+    <!-- <script>
         WebFont.load({
             google: {
                 "families": ["Lato:300,400,700,900"]
@@ -24,7 +24,7 @@
                 sessionStorage.fonts = true;
             }
         });
-    </script>
+    </script> -->
     <style>
         .form-group label , .form-check label {white-space:pre-line;}
     </style>
