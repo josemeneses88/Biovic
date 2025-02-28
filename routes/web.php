@@ -16,6 +16,12 @@ use Spatie\FlareClient\View;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', function () {
+    // Alert::success(' Titulo de la alerta','mensaje de la alerta');
+    // toast('Ejemplo del toast')->success('ejemplo del tost');
+    return view('main');
+    // return View('admin.layouts.app');
+});
 
 Route::get('/main', function () {
     // Alert::success(' Titulo de la alerta','mensaje de la alerta');
