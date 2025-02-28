@@ -62,7 +62,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
-                        {{-- <li ><a class="nav-link " aria-current="page" href="menu">Home</a></li> --}}
+                        <li ><a class="nav-link " aria-current="page" href="menu">Home</a></li>
                         <li><a class="nav-link"   href="hojas_vida">Hojas de Vida</a></li>
                         <li><a class=" nav-link"  href="mantenimiento">Gestión de Mantenimiento</a></li>
                         <li><a class=" nav-link "  href="soporte">Soporte Técnico</a></li>

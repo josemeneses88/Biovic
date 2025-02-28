@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     @extends('layouts.header')
     <!-- <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -66,7 +67,7 @@
     </header> -->
 
 
-
+    @include('sweetalert::alert')
 
     <main>
         <div class="container1">
