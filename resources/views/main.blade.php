@@ -43,7 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="true" href="{{ route('login') }}">Iniciar sesión</a>
                         </li>
-                    </ul>
+                    </ul>-
                     <!-- <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-size: 17px;">
                         <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://www.google.com'" style="height: 13%; margin-top:4%">Search</button>
