@@ -7,6 +7,30 @@
     max-width: 100%;
 }
 
+/* Estilo para el contenedor del carrusel */
+.carousel-item {
+    text-align: center; /* Centra el contenido del carrusel */
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-item img {
+    max-width: 35%; /* Ajusta el tamaño máximo de la imagen al 50% del ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-top: 6%;
+    
+}
+h4{
+    margin-block-end: 5%;
+}
+/* Estilo para los iconos de los controles del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Cambia el color de los iconos a negro */
+}
+
+
+
 
 /* About us */
 
@@ -30,6 +54,12 @@
     max-width: 600px; /* Ajusta el ancho máximo del texto según sea necesario */
     margin-right: 5%;
    line-height: 2rem;
+}
+.titulo{
+    color: #7169dd;
+    font-weight: bold;
+    text-align: center;
+    padding: 3rem;
 }
 
 .texto h1 {

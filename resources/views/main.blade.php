@@ -31,31 +31,39 @@
 
        
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/HTML/main.html" style="font-size: 220%;">
-                    Biovic
-                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="VitalSoft" height="40">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="    margin: 0%;
+    padding: 0%;">
+            <div class="container-fluid" >
+                <a class="navbar-brander d-flex" href="main" style="text-decoration: none; ">
+                    <h1 style="text-decoration: none; font-size:400%">Biovic</h1>
+                    
+                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="biovic" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" aria-current="true" href="{{ route('login') }}">Iniciar sesión</a>
+                        </li> -->
+                    </ul>
+
+
+                </div>
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="true" href="{{ route('login') }}">Iniciar sesión</a>
                         </li>
                     </ul>-
-
-                </div>
             </div>
         </nav>
         
 
         <!-- Sección Hero -->
         <div class="hero d-flex flex-column justify-content-center align-items-center text-center p-4">
-            <section class="hero__container container">
-                <h1 class="hero__title">VitalSoft</h1>
+            <section class=" container">
+                <h1 class="hero__title">Biovic</h1>
                 <p class="hero__paragraph"> Soluciones Inteligentes para la Gestión y Mantenimiento de Equipos Biomédicos</p>
                 <a href="#" class="cta">Agendar demo</a>
             </section>

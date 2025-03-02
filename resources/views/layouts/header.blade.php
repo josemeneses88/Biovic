@@ -10,10 +10,11 @@
     {{-- <title>{{ config('app.name','Laravel') }}</title> --}}
 
     <!-- Fonts -->
-    {{-- <link rel="preconnect" href="https://fonts.bunny.net"> --}}
-    {{-- <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> --}}
+    <link rel="preconnect" href="https://fonts.bunny.net"> --}}
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
@@ -46,26 +47,29 @@
         </div> --}}
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin: 0%;
+    padding: 0%;">
             {{-- <a href="/HTML/menu.html" style="margin-left: 1%; margin-right:1%">
                 <i class="fa-solid fa-arrow-left" style="margin-left: 5%; color:white"></i>
             </a> --}}
-            
+
             <div class="container-fluid">
-                <a class="navbar-brand" href="main">
-                    Biovic
-                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="Logo de VitalSoft" height="30">
+                <a class="navbar-brander d-flex" style="margin: 0%; padding: 0%;" href="main">
+                    <h1 style="font-weight: bold;">Biovic</h1>
+
+                    <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="VitalSoft" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
-                        <li ><a class="nav-link " aria-current="page" href="menu">Home</a></li>
-                        <li><a class="nav-link"   href="hojas_vida">Hojas de Vida</a></li>
-                        <li><a class=" nav-link"  href="mantenimiento">Gestión de Mantenimiento</a></li>
-                        <li><a class=" nav-link "  href="soporte">Soporte Técnico</a></li>
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
+                        <li><a class="nav-link " aria-current="page" href="menu">Home</a></li>
+                        <li><a class="nav-link" href="hojas_vida">Hojas de Vida</a></li>
+                        <li><a class=" nav-link" href="mantenimiento">Gestión de Mantenimiento</a></li>
+                        <li><a class=" nav-link " href="soporte">Soporte Técnico</a></li>
                         {{-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
