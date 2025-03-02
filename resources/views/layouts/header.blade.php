@@ -47,13 +47,13 @@
         </div> --}}
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin: 0%;
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" margin: 0%;
     padding: 0%;">
             {{-- <a href="/HTML/menu.html" style="margin-left: 1%; margin-right:1%">
                 <i class="fa-solid fa-arrow-left" style="margin-left: 5%; color:white"></i>
             </a> --}}
 
-            <div class="container-fluid">
+            <div class="container-fluid" >
                 <a class="navbar-brander d-flex" style="margin: 0%; padding: 0%;" href="main">
                     <h1 style="font-weight: bold;">Biovic</h1>
 
@@ -64,7 +64,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                    <ul class="navbar-nav me-auto my-0 my-lg-0 navbar-nav-scroll"
                         style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
                         <li><a class="nav-link " aria-current="page" href="menu">Home</a></li>
                         <li><a class="nav-link" href="hojas_vida">Hojas de Vida</a></li>
@@ -98,7 +98,8 @@
                             <a class="nav-link disabled nav-link active" aria-disabled="true">Menú Principal</a>
                         </li> --}}
                     </ul>
-                    <ul>
+                    <ul style="margin: 0%;
+    padding: 0%;">
                         <!-- Authentication Links -->
                         @guest
 
@@ -119,7 +120,7 @@
                         @else
                             {{-- despliegue --}}
                             {{-- <div class="collapse navbar-collapse" id="navbarNavDropdown"> --}}
-                            <ul class="nav-item dropdown">
+                            <ul class="nav-item dropdown" >
                                 <a id="navbarDropdown"
                                     style=" justify-content: center; align-content:center; padding-right:2rem; "
                                     class="nav-link dropdown-toggle button" href="#" role="button"
@@ -127,18 +128,18 @@
                                     {{ Auth::user()->name }}
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu dropdown-menu-end"   aria-labelledby="navbarDropdown">
                                     <a href="profile" class="bi bi-person-circle bi bi bi bi dropdown-item "> Perfil</a>
 
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Mi Perfil</a>
+                                    <a class="dropdown-item " href="#">Mi Perfil</a>
                                     <a class="dropdown-item" href="#">Notificaciones</a>
                                     <a class="dropdown-item" href="#">Favoritos</a>
                                     <a class="dropdown-item" href="/HTML/soporte.html">Configuración</a>
                                     {{-- <a class="dropdown-item" href="{{froute('fav.show')}}">favoritoa</a> --}}
 
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Configuraciones de Cuenta</a>
+                                    <a class="dropdown-item my-11"  href="#">Configuraciones de Cuenta </a>
                                     <div class="dropdown-divider"></div>
 
                                     <a class="dropdown-item" href="{{ route('logout') }}"
