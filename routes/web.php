@@ -30,7 +30,7 @@ Route::get('/main', function () {
     // return View('admin.layouts.app');
 });
 Route::get('/menuing', function () {
-    Alert::success(' Bienvenido!','ingreso exitoso');
+    Alert::success(' Bienvenido!','Ingreso exitoso');
     // toast('Ejemplo del toast')->success('ejemplo del tost');
     return view('menu');
     // return View('admin.layouts.app');
