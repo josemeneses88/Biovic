@@ -14,7 +14,7 @@ use Spatie\FlareClient\View;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
-|
+|sopor_reporte_manto
 */
 Route::get('/', function () {
     Alert::success(' Titulo de la alerta','mensaje de la alerta');
@@ -34,8 +34,12 @@ Route::get('/menuing', function () {
     // toast('Ejemplo del toast')->success('ejemplo del tost');
     return view('menu');
     // return View('admin.layouts.app');
+    
 });
 
+Route::get('/reporte_de_servicio', function ()  {return view('reporte_de_servicio');});
+Route::get('/manto_crono_cal', function ()  {return view('manto_crono_cal');});
+Route::get('/sopor_reporte_manto', function ()  {return view('sopor_reporte_manto');});
 Route::get('/ingreso_hoja_de_vida', function ()  {return view('ingreso_hoja_de_vida');});
 Route::get('/menu', function ()                  {return view('menu');});
 Route::get('/hojas_vida', function ()            {return view('hojas_vida');});
