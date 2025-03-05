@@ -37,7 +37,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 7rem;">
             <div class="col">
                 <div class="card h-100">
-                    <a href="sopor_reporte_manto" style="text-decoration: none;">
+                    <a href="manto_crono" style="text-decoration: none;">
                         <img src="IMG/reparacion1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title" style="margin-top: 1rem;">Cronograma de Mantenimiento</h5>
@@ -64,6 +64,18 @@
                         <img src="IMG/reparacion2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Alarmas</h5>
+                            <p class="card-text">Genera alarmas y gestiona reportes para mantener un control eficiente del mantenimiento.</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="reporte_de_servicio">
+                        <img src="IMG/reparacion2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Inventario fisico</h5>
                             <p class="card-text">Genera alarmas y gestiona reportes para mantener un control eficiente del mantenimiento.</p>
                         </div>
                     </a>
