@@ -218,9 +218,9 @@ nav > a {
     margin-right: 10px;
 }
 
-nav > a:hover {
+/* nav > a:hover {
     text-decoration: underline;
-}
+} */
 .navbar-brand img{
     width: 40px;
     height: 40px;

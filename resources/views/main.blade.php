@@ -31,12 +31,9 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="    margin: 0%;
-    padding: 0%;">
-            <div class="container-fluid" style="margin: 0%;
-    padding: 0%;">
-                <a class="navbar-brander d-flex" href="main" style="text-decoration: none;margin: 0%;
-    padding: 0%;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="    margin: 0%;   padding: 0%;">
+            <div class="container-fluid" style="margin: 0%;    padding: 0%;">
+                <a class="navbar-brander d-flex" href="main" style="text-decoration: none;margin: 0%;    padding: 0%;">
                     <h1 style="text-decoration: none; font-size:400%">Biovic</h1>
 
                     <img src="IMG/CutPaste_2024-08-02_10-48-31-556.png" alt="biovic" height="40">
@@ -118,7 +115,7 @@
                             Conecta con tu entorno, permite a tus empleados, proveedores y clientes, solicitar trabajos de
                             mantenimiento a sus equipos biomedicos a través del portal de solicitudes
                         </p>
-                        <a href="/HTML/mantenimiento_demosta.html" class="btn cta-btn">Saber más</a>
+                        <a href="mantenimiento_demosta" class="btn cta-btn">Saber más</a>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
     {{-- <title>{{ config('app.name','Laravel') }}</title> --}}
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net"> --}}
+    <link rel="preconnect" href="https://fonts.bunny.net"> 
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
@@ -22,8 +22,12 @@
     {{-- <link rel="stylesheet" href="{{ asset('css/header.css') }}"> --}}
     <link rel="stylesheet" href="css/header.css">
     <script src="{{ asset('js/app.js') }}"></script>
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .active {
+        color: #ffffff;
+    }
+</style>
 
 </head>
 
@@ -65,11 +69,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-0 my-lg-0 navbar-nav-scroll"
-                        style=" --bs-scroll-height: 100px; margin-left: 5%; margin-right:5%">
-                        <li><a class="nav-link " aria-current="page" href="menu">Home</a></li>
-                        <li><a class="nav-link" href="hojas_vida">Hojas de Vida</a></li>
-                        <li><a class=" nav-link" href="mantenimiento">Gestión de Mantenimiento</a></li>
-                        <li><a class=" nav-link " href="soporte">Soporte Técnico</a></li>
+                        style=" --bs-scroll-height: 100px; margin-left: 1%; margin-right:1%">
+                        <li><a class="nav-link"  href="main"><i class="bi bi-house"></i></a></li>
+                        <li><a class="nav-link {{ request()->routeIs(['menu']) ? 'po' : '' }}" href="menu">Menu</a></li>
+                        <li><a class="nav-link {{ request()->routeIs(['hoja_vida']) ? 'po' : '' }}" href="hojas_vida">Hojas de Vida</a></li>
+                        <li><a class="nav-link {{ request()->routeIs(['mantenimiento']) ? 'po' : '' }}" href="mantenimiento">Gestión de Mantenimiento</a></li>
+                        <li><a class="nav-link {{ request()->routeIs(['soporte']) ? 'po' : '' }} " href="soporte">Soporte Técnico</a></li>
                         {{-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
-*{  margin: 0;
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,80 +15,86 @@ body {
 
 /* Estilo general para el menú desplegable */
 .dropdown-menu {
-    background-color: #fff; 
-    border: 1px solid rgba(0, 0, 0, 0.125); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 .dropdown-item {
-    color: #333; 
-    padding: 8px 16px; 
+    color: #333;
+    padding: 8px 16px;
     text-decoration: none;
-    display: block; 
+    display: block;
 }
 
 
 .dropdown-item:hover {
-    background-color: #f8f9fa; 
-    color: #007bff; 
+    background-color: #f8f9fa;
+    color: #007bff;
 }
 
 
 .dropdown-divider {
-    border-top: 1px solid rgba(0, 0, 0, 0.125); 
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
-    
-    header .textos-header {
-        display: flex;
-        height: 430px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
 
-
-    /* TARJETAS */
-    .card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        text-decoration: none;
-        border-radius: 9%;
-        
-    }
-    
-    .card:hover {
-        transform: scale(1.05); 
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-    }
-    
-    /* Opcional: Efecto de hover específico para el contenido de la tarjeta */
-    .card-body {
-        transition: background-color 0.3s ease;
-        text-decoration: none;
-    }
-    .card-body a {
-    text-decoration: none; /* Elimina el subrayado en enlaces */
+header .textos-header {
+    display: flex;
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-    .card-body .card-text {
-        color: #000000;
-    }
 
-    .card-body .card-title{
-        color: #000000;
-    }
 
-    .card:hover .card-body {
-        background-color: #f8f9fa; /* Fondo más claro en el contenido de la tarjeta al hacer hover */
-    }
+/* TARJETAS */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    border-radius: 9%;
 
-    .card-body:hover .card-title{
-        color: #7169dd;
-    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Opcional: Efecto de hover específico para el contenido de la tarjeta */
+.card-body {
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.card-body a {
+    text-decoration: none;
+    /* Elimina el subrayado en enlaces */
+}
+
+.card-body .card-text {
+    color: #000000;
+}
+
+.card-body .card-title {
+    color: #000000;
+}
+
+.card:hover .card-body {
+    background-color: #f8f9fa;
+    /* Fondo más claro en el contenido de la tarjeta al hacer hover */
+}
+
+.card-body:hover .card-title {
+    color: #7169dd;
+}
+
 .card-body:hover .card-text {
-    color:#7169dd; /* Cambia el color del texto en el cuerpo de la tarjeta */
+    color: #7169dd;
+    /* Cambia el color del texto en el cuerpo de la tarjeta */
 }
-    
+
 
 
 /* Footer */

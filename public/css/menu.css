@@ -29,8 +29,22 @@ h4{
     filter: invert(1); /* Cambia el color de los iconos a negro */
 }
 
-
-
+/* body{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #7169dd;
+    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
+    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+      transition: background-color 0.3s ease, opacity 0.3s ease;
+} */
 
 /* About us */
 

@@ -22,17 +22,35 @@
                 <x-input-label for="email" />
                 <x-text-input id="email" placeholder="E-mail" class="block mt-1 w-full" type="email"
                     name="email" :value="old('email')" required autocomplete="username" />
-                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                {{-- <x-input-error :messages="$errors->get('email')" class="mt-2" /> --}}
+                @error('email')
+                    <div class="invalid-feedback" style="color: red">
+                        Este correo esta registrado
+                    </div>
+                @enderror
+
 
                 <x-input-label for="password" />
                 <x-text-input id="password" placeholder="Contraseña" class="block mt-1 w-full" type="password"
                     name="password" requiredautocomplete="new-password" />
-                <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                @error('password')
+                    <div class="invalid-feedback" style="color: red">
+                        agregar minimo 8 caracteres
+                    </div>
+                @enderror
+                {{-- <x-input-error :messages="$errors->get('password')" class="mt-2" /> --}}
+
 
                 <x-input-label for="password_confirmation" />
                 <x-text-input id="password_confirmation" placeholder="Confirmar contraseña" class="block mt-1 w-full"
                     type="password" name="password_confirmation" required autocomplete="new-password" />
                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+                    
+                @error('password_confirmation')
+                    <div class="invalid-feedback" style="color: red">
+                        agregar minimo 8 caracteres
+                    </div>
+                @enderror
                 <button class="custom-button">
                     {{ __('Registrar') }}
                 </button>
@@ -64,12 +82,18 @@
                 <x-input-label for="email" />
                 <x-text-input placeholder="Email" id="email" class="block mt-1 w-full" type="email" name="email"
                     :value="old('email')" required autofocus autocomplete="username" />
-                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                {{-- <x-input-error :messages="$errors->getemail')" class="mt-2" /> --}}
 
                 <x-input-label for="password" />
                 <x-text-input id="password" placeholder="Contraseña" class="block mt-1 w-full" type="password"
                     name="password" required autocomplete="current-password" />
-                <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                {{-- <x-input-error :messages="$errors->get('password')" class="mt-2" /> --}}
+
+                @error('email')
+                    <div class="invalid-feedback"  style="color: red">
+                        Correo o contraseña incorrectos
+                    </div>
+                @enderror
 
 
                 {{-- <label for="remember_me" class="inline-flex items-center">

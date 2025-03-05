@@ -8,8 +8,16 @@
     <title>Mantenimiento_demostracion</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="/CSS/mante_demostra.css">
+    <link rel="stylesheet" href="css/mante_demostra.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="img/Logo_VitalTech2.png" type="image/x-icon">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="icon" type="image/x-icon" href="IMG/logotipo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 
@@ -18,12 +26,13 @@
 <body>
 
     <header class="hero">
-        <nav class="nav container">
-            <div class="nav__logo">
+        <nav class="nav container container-fluid">
+            <div class="container-fluid">
+                 <div class="nav__logo">
                 <h2 class="nav__title">VITALTECH.</h2>
             </div>
 
-            <ul class="nav__link nav__link--menu">
+            <ul class="nav__link nav__link--menu d-flex">
                 <li class="nav__items">
                     <a href="/HTML/main.html" class="nav__links">Home</a>
                 </li>
@@ -41,6 +50,8 @@
             <div class="nav__menu">
                 <img src="./images/menu.svg" class="nav__img">
             </div>
+            </div>
+           
         </nav>
 
         <section class="hero__container container">

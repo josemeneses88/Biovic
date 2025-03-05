@@ -53,7 +53,7 @@
                             <img src="IMG/img8.jpg" alt="Descripción de la imagen">
                             <div class="hover-galeria">
                                 <img src="IMG/icono1.png" alt="Icono">
-                                <a href="/HTML/hoja_ver.html">
+                                <a href="hoja_ver">
                                     <h1  style="font-size:larger; color:white">Ver hoja de vida</h1>
                                 </a>
                             </div>
@@ -64,7 +64,7 @@
                             <img src="IMG/img4.jpg" alt="Descripción de la imagen">
                             <div class="hover-galeria">
                                 <img src="IMG/icono1.png" alt="Icono">
-                                <a href="/HTML/descargar_hv.html">
+                                <a href="descargar_hv">
                                 <h1  style="font-size:larger; color:white">Descargar</h1>
                             </a>
                             </div>
@@ -75,7 +75,7 @@
                             <img src="IMG/portatil_con_kpis.webp" alt="Descripción de la imagen">
                             <div class="hover-galeria">
                                 <img src="IMG/icono1.png" alt="Icono">
-                                <a href="/HTML/editar_HV.html">
+                                <a href="editar_HV">
                                     <h1 style="font-size:larger; color:white">Editar</h1>
                                 </a>
                             </div>
