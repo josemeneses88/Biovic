@@ -8,7 +8,33 @@
 
 body {
     font-family: 'Poppins', sans-serif;
- 
+    background-color: #e9e9e9;
+    color: #333;
+    font-size: 1rem;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.formu {
+    margin-bottom: 10%;
+    padding-top: 8%;   /* line-height: 0.3; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
 }
 
 .contenedor {
@@ -19,47 +45,7 @@ body {
     overflow: hidden;
 }
 
-.navbar {
-    background: #7169dd;
-    background: -webkit-linear-gradient(to right, hsla(236, 63%, 75%, 0.459), hsla(239, 65%, 36%, 0.664)), url(../IMG/fondo2.1.jpg);
-    background: linear-gradient(to right, hsla(234, 32%, 69%, 0.459), hsla(226, 53%, 48%, 0.664)), url(../IMG/fondo2.1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
-}
 
-.navbar-scrolled {
-    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el color y la opacidad según sea necesario */
-    opacity: 0.8; /* Ajusta la opacidad */
-}
-
-.navbar .nav-link,
-.navbar .navbar-brand,
-/* .navbar .dropdown-menu .dropdown-item, */
-.navbar .btn {
-  color: white !important;
-}
-
-a {
-    text-decoration: none;
-}
-
-header h1 {
-    color: #f2f2f2;
-    margin-left: 5%;
-    margin-top: -2%;
-    text-decoration: none;
-}
-
-nav {
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
 .textos-header h2 {
     font-size: 30px;
     font-weight: 300;
@@ -74,28 +60,28 @@ nav {
 
 /* Estilo general para el menú desplegable */
 .dropdown-menu {
-    background-color: #fff; 
-    border: 1px solid rgba(0, 0, 0, 0.125); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 .dropdown-item {
-    color: #333; 
-    padding: 8px 16px; 
+    color: #333;
+    padding: 8px 16px;
     text-decoration: none;
-    display: block; 
+    display: block;
 }
 
 
 .dropdown-item:hover {
-    background-color: #f8f9fa; 
-    color: #007bff; 
+    background-color: #f8f9fa;
+    color: #007bff;
 }
 
 
 .dropdown-divider {
-    border-top: 1px solid rgba(0, 0, 0, 0.125); 
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 
@@ -104,8 +90,8 @@ nav {
     padding-inline: 13rem;
 }
 
-.row h1{
-    padding: 4rem;
+.row h1 {
+    /* padding: 4rem; */
     text-align: center;
 }
 

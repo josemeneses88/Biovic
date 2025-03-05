@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
-
-
 /* Estilo para el contenedor del carrusel */
 .carousel-item {
     text-align: center; /* Centra el contenido del carrusel */
@@ -22,23 +19,13 @@ h4{
 .carousel-control-next-icon {
     filter: invert(1); /* Cambia el color de los iconos a negro */
 }
-h1{
-    font-weight: bold;
-    color: #404040;
-}
 
 
-html {
-    font-family: 'Open Sans', sans-serif;
-    /* font-size: 10px; */
-    
-    
-}
+
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 .contenedor {
@@ -64,10 +51,7 @@ ul .botone{
 
 /* Header */
 .navbar {
-    height: 6vh;
-    margin: 0%;
-    /* padding: 0%;
-    box-sizing: border-box; */
+    
     justify-content: center;
     /* align-items: center; */
     align-content: center;
@@ -97,43 +81,18 @@ ul .botone{
 
 }
 .nav-link{
-    margin: 0 6px 0 6px;
     color: #ffffff;
     
-    
 }
-
-.po{
-    padding-bottom:10px;
-
-    transform: scale(1.1);
-    
-    /* padding-bot
-    hitom: 25px; */
-    color: #ffffff;
-    /* text-transform: uppercase; */
-    /* box-decoration-break: clone; */
-     border-radius: 15px 15px 0 0;
-    /* background-color: rgb(255, 255, 255); */
-    
-    background: linear-gradient( rgba(4, 15, 58, 0), rgba(5, 5, 73, 0.644), rgba(14, 3, 111, 0));
-    /* text-shadow: #ffffff; */
-    /* text-decoration: solid; */
-}
-
 
 .nav-link:hover{
-    /* text-decoration: underline; */
-    /* transform: scale(0.95); */
-    /* font-weight: bold; */
-    color: #d5d5d5;
-    /* border-radius: 10px; */
+    color: #ffffffa9;
+    border-radius: 10px;
     /* text-shadow: #ffffff; */
     text-decoration: solid;
 }
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
 }
 
 .titulo{
@@ -148,7 +107,7 @@ header h1 {
     text-decoration: none;
 }
 
-/* nav {
+nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
@@ -156,13 +115,13 @@ header h1 {
 nav > a {
     color: #fff;
     font-weight: 300;
-    /* text-decoration: none; */
-    /* margin-right: 10px; */
-/* } */
+    text-decoration: none;
+    margin-right: 10px;
+}
 
-/* nav > a:hover {
+nav > a:hover {
     text-decoration: underline;
-} */ 
+}
 
 /* Estilo general para el menú desplegable */
 
@@ -247,12 +206,11 @@ header .textos-header {
 
 
 .navbar .navbar-brander{
+    
     text-decoration: none;
     display: flex;
     margin: 0%;
     padding: 0%;
-    justify-content: center;
-    align-items: center;
     
 }
 .navbar .navbar-brander h1{
@@ -260,6 +218,6 @@ header .textos-header {
     display: flex;
     margin: 0%;
     padding: 0%;
+    
     /* font-size: 300%; */
-    font-weight: bold;
 }
